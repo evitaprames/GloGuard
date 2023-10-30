@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GloGuard</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/home.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+        <a href="#" class="logo">GloGuard</a>
+            <div class="menu">
+                <a class="nav-link active" href="/">Home</a>
+                <a class="nav-link" href="/tools">Tools</a>
+                <a class="nav-link" href="/about">About</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Skin Disease Detection</h1>
+            <h2>GloGuard : Gateway to Healthy Skin</h2>
+            <p>Welcome to GloGuard, your ultimate destination for achieving and maintaining healthy, radiant skin. Our innovative skin disease detection platform is designed to empower you with precise insights and expert analysis, ensuring your skin's well-being is at the forefront of your self-care journey.</p>
+            <a href="/about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2023 GloGuard. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
